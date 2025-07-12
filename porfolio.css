@@ -179,3 +179,25 @@ footer {
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 900px) {
+    .home {
+        padding: 70px 8% 0; 
+    }
+    .avatar img {
+        width: 250px;
+        height: auto;
+        
+    }
+    .home_content {
+        font-size: 15px;
+    }
+    .home_content span {
+        font-size: 35px;
+    }
+    #about {
+        padding: 10px 8% 0;
+    }
+    .container { 
+        padding: 10px 8%; 
+    }
+}
