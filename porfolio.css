@@ -147,7 +147,7 @@ nav a:hover {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding: 10px 10%;
-    
+    justify-content: center;
 }
 .hobbies, .education, .language {
     border: 2px solid aqua;
@@ -180,13 +180,9 @@ footer {
     align-items: center;
 }
 @media (max-width: 900px) {
-    .home {
-        padding: 70px 8% 0; 
-    }
     .avatar img {
         width: 250px;
         height: auto;
-        
     }
     .home_content {
         font-size: 15px;
@@ -194,10 +190,20 @@ footer {
     .home_content span {
         font-size: 35px;
     }
-    #about {
-        padding: 10px 8% 0;
+    
+}
+@media (max-width: 790px) {
+    .container {
+        font-size: 14px;
     }
-    .container { 
-        padding: 10px 8%; 
+    .about_me {
+        font-size: 14px;
     }
+    .rmit_image img {
+        width: 225px;
+        height: 225px;
+    }
+    .avatar img {
+        width: 225px;
+    }   
 }
