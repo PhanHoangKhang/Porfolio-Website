@@ -21,6 +21,16 @@ header {
     border: 1px solid rgb(5, 247, 202);
     z-index: 100;
 }
+.hamburger {
+    display: none;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+}
+.hamburger:hover {
+    color: yellow;
+}
 .logo {
     position: relative;
     font-size: 25px;
@@ -206,4 +216,30 @@ footer {
     .avatar img {
         width: 225px;
     }   
+}
+@media (max-width: 745px) {
+    .hamburger {
+        display: block;
+    }
+    nav {
+        flex-direction: column;
+        background-color: rgb(1, 12, 37);
+        display: none;
+        padding: 10px 0;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        align-items: center;
+        margin-top: 1px;
+        border-bottom: 1px solid rgb(5, 247, 202);
+        border-radius: 2px;
+        line-height: 1.5;
+    }
+    nav a {
+        font-size: 22px;
+    }
+    nav.show {
+        display: flex;
+    }
 }
