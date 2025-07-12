@@ -217,7 +217,7 @@ footer {
         width: 225px;
     }   
 }
-@media (max-width: 745px) {
+@media (max-width: 755px) {
     .hamburger {
         display: block;
     }
