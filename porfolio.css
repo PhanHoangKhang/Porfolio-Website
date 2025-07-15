@@ -154,7 +154,7 @@ nav a:hover {
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, 1fr);
     gap: 30px;
     padding: 10px 10%;
     justify-content: center;
@@ -245,5 +245,8 @@ footer {
     .rmit_image img {
         width: 200px;
         height: 200px;
+    }
+    footer {
+        font-size: 15px;
     }
 }
