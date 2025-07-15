@@ -242,4 +242,8 @@ footer {
     nav.show {
         display: flex;
     }
+    .rmit_image img {
+        width: 200px;
+        height: 200px;
+    }
 }
